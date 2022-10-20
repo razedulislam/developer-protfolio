@@ -1,3 +1,107 @@
-p{
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+.header-section{
+display: flex;
+
+}
+.half-part{
+    width: 50%;
+    margin-left: 100px;  
+}
+.head-des{
+    
+    font-size: 19px;
+    color: black;
+}
+.raj-image1{
+    width: 70%;
+    margin-left: 120px;
+}
+.btn1{
+    font-size: 22px;
+    background-color: aquamarine;
+    height: 40px;
+    width: 120px;
+    border-color:aquamarine;
+    
+   
+}
+#peter{
+    color: aqua;
+}
+.dream-section{
+    display: flex;
+    margin-top: 70px;
+}
+.dream-des{
+    font-size: 19px;
+    margin-right: 60px;
+}
+.raj-image2{
+    
+    width: 90%;
+    
+}
+.dream-btn{
+    font-size: 22px;
+    background-color: aquamarine;
+    height: 40px;
+    width: 220px;
+    border-color:aquamarine;
+    margin: 10px; 
+}
+#dream-head3{
+font-size: 30px;
+}
+.experience{
+    margin:5px 45px;
+    padding-top: 100px;
+
+}
+
+.experience-card{
+    width: 50%;
+    border-left: 7px solid rgb(225, 59, 59);
+    padding: 15px;
+    margin: 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 320px;
+    
+}
+.experience-cards{
+    display: flex;
+}
+.card1{
+    margin-right: 25px;
+}
+.card2{
+    margin-left: 25px;
+    border-left: 7px solid rgb(159, 225, 59);
+}
+.experience-h1{
+    font-size: 45px;
+    
+}
+.experience-h2{
+    margin-left: -40px;
+    font-size: 45px;
+
+}
+.footer-section{
+    margin-top: 150px;
+    text-align: center;
+}
+.experience-h3{
     color: aqua;
 }
