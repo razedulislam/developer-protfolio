@@ -11,8 +11,19 @@ h2{
 h3{
     font-size: 20px;
 }
+span{
+    color: aqua;
+}
+.btn{
+    color: aliceblue;
+    background-color: rgb(236, 9, 123) ;
+    height: 40px;
+    border-color: rgb(209, 115, 7);
+}
 .header-section{
 display: flex;
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
 
 }
 .half-part{
@@ -29,20 +40,16 @@ display: flex;
     margin-left: 120px;
 }
 .btn1{
-    font-size: 22px;
-    background-color: aquamarine;
-    height: 40px;
     width: 120px;
-    border-color:aquamarine;
     
-   
 }
-#peter{
-    color: aqua;
-}
+
 .dream-section{
     display: flex;
     margin-top: 70px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .dream-des{
     font-size: 19px;
@@ -54,11 +61,7 @@ display: flex;
     
 }
 .dream-btn{
-    font-size: 22px;
-    background-color: aquamarine;
-    height: 40px;
     width: 220px;
-    border-color:aquamarine;
     margin: 10px; 
 }
 #dream-head3{
@@ -101,7 +104,4 @@ font-size: 30px;
 .footer-section{
     margin-top: 150px;
     text-align: center;
-}
-.experience-h3{
-    color: aqua;
 }
